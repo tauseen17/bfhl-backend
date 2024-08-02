@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "build": "react-scripts build",
+    "serve": "serve -s build",
+    "start": "react-scripts start",
+    "functions": "netlify-lambda serve functions",
+    "build:lambda": "netlify-lambda build functions"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
